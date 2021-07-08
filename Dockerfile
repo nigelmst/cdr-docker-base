@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-alpine AS system-setup
+FROM php:7.4-fpm-alpine
 
 # Install system dependencies
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/latest-stable/main" >> /etc/apk/repositories
